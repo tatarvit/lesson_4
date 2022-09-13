@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+
+}
+body {
+	font-family: "Larsseit";
+}
+
+h1 {
+	font-weight: 700;
+	font-size: large;
+}
+/*
+< .text,
+.lesson {
+	color: rgb(0, 0, 255);
+}*/
+
+/*.text.lesson {
+	color: rgb(249, 3, 3);
+}*/
+
+/*.text .lesson {
+	color: rgb(2, 90, 13);
+}
+*/
+
+/*===========ПРІОРИТЕТ СЕЛЕКТОРІВ==============*/
+
+/*------РІВНОЗНАЧНІ СЕЛЕКТОРИ---------------*/
+
+/*p {
+	color: #f80404;
+}
+p {
+	color: rgb(55, 1, 250);
+}
+*/
+
+/*p {
+	color: rgb(55, 1, 250);
+}
+
+p {
+	color: #f80404;
+}
+*/
+
+/*------УТОЧНУЄ, КОНКРЕТИЗУЄ-------*/
+
+/*p {
+	color: rgb(55, 1, 250);
+}
+
+.text {
+	color: #f80404;
+}
+*/
+
+/*.text {
+	color: #f80404;
+}
+
+p {
+	color: rgb(55, 1, 250);
+}
+*/
+
+/*#familiya {
+	color: rgb(2, 96, 23);
+}
+.text {
+	color: #f80404;
+}
+
+p {
+	color: rgb(55, 1, 250);
+}
+*/
+
+/*.text-block p {
+	color: #f80404;
+}
+
+p {
+	color: rgb(55, 1, 250);
+}
+*/
+
+/*p.text {
+	color: rgb(2, 96, 23);
+}
+.text {
+	color: rgb(55, 1, 250);
+}
+p {
+	color: #f80404;
+}
+*/
+
+/*#familiya {
+	color: rgb(245, 154, 7);
+}
+.text.lesson {
+	color: rgb(245, 7, 221);
+}
+p.text {
+	color: rgb(2, 96, 23);
+}
+.text {
+	color: rgb(55, 1, 250);
+}
+p {
+	color: #f80404;
+*/
